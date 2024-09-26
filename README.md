@@ -116,4 +116,8 @@ node index.mjs
 npm run module
 ``` 
 
-### [JavaScript Cheat Sheet](https://cheatsheets.zip/javascript)
+## Cheat Sheets
+
+- [JavaScript Cheat Sheet](https://cheatsheets.zip/javascript)
+- [NodeJS Cheat Sheet](https://www.codecademy.com/learn/learn-node-js/modules/intro-to-node-js/cheatsheet)
+- [npm Cheat Sheet](https://devhints.io/npm)
