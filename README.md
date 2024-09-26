@@ -15,10 +15,15 @@ You can validate node and npm have been installed by running this.
 node --version
 npm --version
 ```
+```
+output:
+v20.17.0
+10.8.2
+```
 
 ## Introduction to Coding in JavaScript
 
-1. Open your terminal and run a command like this to create and navigate to a directory for this script.
+1. Open your terminal and run this to create and navigate to a directory for this script.
 
 ```sh
 mkdir ~/Documents/node-demo/
@@ -74,14 +79,14 @@ This initializes the project and allows you to add packages to it. It also lets 
 },
 ...
 ```
-Make sure you add a comma after each line in the `scripts` object.
+Make sure you add a comma after each line in `scripts`.
 
 3. In your terminal run this command and you should see the same output from before, but with some added package info (this comes from package.json). 
 ```sh
 npm run start
 ```
 
-4. Create a new file called `index.mjs`. This is where we can add packages to our code.
+4. Now to create a script with packages, create a new file called `index.mjs`. This is where we can add packages to our code.
 
 5. In your terminal run this line to install [Chalk](https://www.npmjs.com/package/chalk). (make sure your pwd is the same directory with `package.json`)
 ```sh
@@ -108,7 +113,7 @@ console.log(chalk.blue('Hello world!'));
 node index.mjs
 ```
 ```sh
-npn run module
+npm run module
 ``` 
 
 ### [JavaScript Cheat Sheet](https://cheatsheets.zip/javascript)
